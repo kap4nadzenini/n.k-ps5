@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* background img radial gradient */
+@font-face {
+    font-family: blaho;
+    src: url(../fonts/bpg_glaho.ttf);
+}
+@font-face {
+    font-family: abezee;
+    src: url(../fonts/ABeeZee-Italic.ttf);
+}
+body{
+    
+
+}
+.yvela{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px 16px 66px;
+}
+body{
+    background-color: #000000
+}
+.Ps{
+    margin: 20px 40px;
+}
+h1 img{
+    padding:15px 66px ;
+}
+h1 a{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+li a{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.icons{
+    width: 180px;
+}
+main h2{
+    font-size: 96px;
+    width: 896px;
+    font-family: blaho;
+    font-weight: 100;
+    background: linear-gradient(to right, #FFFFFF 10%, #371F6C 50%);
+    background-image: linear-gradient(to right, #FFFFFF 10%, #371F6C 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(to left, #FFFFFF, #371F6C) */
+  padding-top: 150px;
+  padding-left: 36px;
+  
+}
+.controler{
+    border-radius: 50%;
+    width: 880px;
+    height: 900px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    padding-top: 216px;
+    padding-left: 132px;
+    background-image: radial-gradient(rgb(88, 49, 170), rgb(88, 49, 170), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+}
+.lurji{
+    font-size: 36px;
+    color: #0F0BDB;
+padding-left: 30px;
+padding-top: 150px;
+font-family: blaho;
+font-weight: 100;
+}
+.tetri{
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-left: 30px;
+    padding-top: 60px;
+    width: 1526px;
+    font-family: blaho;
+    font-weight: 100;
+}
+.buy{
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-left: 56px;
+    padding-top: 56px;
+}
+.gilaki{
+   background-color:#060DBB;
+    width: 194px;
+    padding: 12px 32px;
+ margin-top: 60px;
+    font-size: 24px;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 30px;
+    float: left;
+    /* padding-left: 30px;
+    padding-top: 60px; */
+}
+.gilaki a{
+ color: #000000;
+}
+.gilaki2{
+    background-color:#5E6C7D;
+    width: 224px;
+    padding: 12px 2px;
+ margin-top: 60px;
+    font-size: 24px;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 30px;
+    float: left;
+}
+.gilaki2 a{
+    color: #000000;
+}
+.didi{
+    color: #FFFFFF;
+    font-size: 96px;
+    margin-top: 350px;
+    margin-left: 56px;
+    font-family: blaho;
+}
+.product{
+    color: #FFFFFF;
+    font-size: 64px;
+    margin-left: 126px;
+    font-family: abezee;
+}
+main h2{
+    font-family: blaho;
+}
+.pirveli{
+    width: 360px;
+    height: 350px;
+    background-color: #000000;
+    border-radius: 50%; 
+    border: 2px solid #FFFFFF;
+    margin-left: 117px;
+    margin-top: 100px;
+    background-image: url(../img/controler.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 122px;
+    right: 144px;
+}
+.ori{
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+.foto{
+    width: 250px;
+    height: 182px;
+    margin-left: 54px;
+    margin-top: 76px;
+}
+.one{
+    width: 1018px;
+    height: 953px;
+    background-image: radial-gradient(rgb(88, 49, 170), rgb(88, 49, 170), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    position: relative;
+ }
+ .meore{
+    width: 360px;
+    height: 350px;
+    background-color: #000000;
+    border-radius: 50%; 
+    border: 2px solid #FFFFFF;
+    margin-left: 117px;
+    margin-top: 100px;
+    background-image: url(../img/headphone.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 122px;
+    left: 82px;
+ }
+ .foto2{
+    width: 400px;
+    height: 210px;
+    margin-top: 72px;
+   
+ }
+ .mesame{
+    width: 360px;
+    height: 350px;
+    background-color: #000000;
+    border-radius: 50%; 
+    border: 2px solid #FFFFFF;
+    margin-left: 117px;
+    margin-top: 100px;
+    background-image: url(../img/Access™\ controller.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 38%;
+left: 220px;
+ }
+ .sxvafoto1{
+    background-image: url(../img/bevri\ controler.png);
+ }
+ .sxvafoto2{
+    background-image: url(../img/bevri\ ps.png);
+ }
+ .sxvafoto3{
+    background-image: url(../img/PULSE\ Explore™.png);
+ }
+ .sxvafoto4{
+background-image: url(../img/last\ of\ us.png);
+background-size: 80%;
+ }
+ .sxvafoto5{
+background-image: url(../img/call\ of\ duty.png);
+ }
+ .sxvafoto6{
+    background-image: url(../img/fc24.png);
+    background-size: 70%;
+ }
+ .sxvafoto7{
+    background-image: url(../img/pedlebi.png);
+ }
+ .sxvafoto8{
+    background-image: url(../img/sichqare.png);
+ }
+ .sxvafoto9{
+    background-image: url(../img/wheel.png);
+ }
+ 
+
+ 
